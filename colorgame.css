@@ -1,0 +1,61 @@
+.square{
+	width: 30%;
+	padding-bottom: 30%;
+	background-color: green;
+	margin: 1.6%;
+	float: left;
+	border-radius: 10%;
+	transition: background 0.5s;
+}
+.container{
+	max-width: 600px;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+body{
+	background-color: black;
+	color: white;
+	margin: 0px 0px;
+}
+
+.stripe{
+	background-color: white;
+	height: 30px;
+	color: black;
+	text-align: center;
+}
+#headcontainer{
+	background-color: steelblue;
+	padding: 10px 20px;
+	text-align: center;
+}
+button{
+	color: steelblue;
+	border: 0;
+	background-color: white;
+	height: 100%;
+	outline: none;
+	font-size: inherit;
+	letter-spacing: 1px;
+	transition: all 0.5s;
+}
+#spanning{
+	display: inline-block;
+	width: 20%;
+}
+.selected{
+	background-color: steelblue;
+	color: white;
+}
+h1{
+	margin: 0px auto;
+	font-weight: 100 ;
+}
+#headingSpan{
+	font-size: 200%;
+	text-transform: uppercase;
+}
+button:hover{
+	color: white;
+	background-color: steelblue;
+}
